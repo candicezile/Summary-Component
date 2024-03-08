@@ -1,0 +1,223 @@
+.container{
+    position: relative;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+background-color: hsl(221, 100%, 96%);
+font-family: "Hanken Grotesk", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+}
+
+
+.parent{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+   height: 350px;
+    background-color: hsl(0, 0%, 100%);
+border-radius: 20px;
+}
+
+.child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+   height: 350px;
+   background-image: linear-gradient(to top, hsl(241, 81%, 54%),hsl(252, 100%, 67%));
+    background-color: hsl(241, 81%, 54%);
+    border-radius: 20px;
+
+
+}
+
+p{
+    align-items: center;
+    justify-content: center;
+
+    font-size: 14px;
+    color: hsl(241, 100%, 89%);
+    margin-left: 10%;
+}
+
+.indent {
+    display: inline-block;
+    margin-left: 5%; 
+}
+
+.indent-1 {
+    display: inline-block;
+    margin-left: 25%; 
+}
+
+.circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    /* position: relative; */
+    top: 50%;
+    /* left: 50%; */
+    background-color: hsla(241, 72%, 46%, 0);
+
+}
+
+.number{
+    font-size: 12px;
+    color: hsl(241, 100%, 89%);
+
+
+}
+
+.number-1{
+    font-size: 50px;
+    color:white;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.Continue{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+background-color: hsl(224, 30%, 27%);
+color: white;
+width: 190px;
+height: 31px;
+border-radius: 16px;
+font-size: 12px;
+
+}
+.main{
+    display: flex;
+    width: 500px;
+    height: 350px;
+border-radius: 20px;
+box-shadow: 6px 0px 5px 10px rgba(41, 40, 40, 0.048);
+background-color: hsl(0, 0%, 100%);
+  
+}
+
+
+.great{
+    font-size: 20px;
+    color: white; 
+    margin-top: 20px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.red{
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 96%, 0.623);
+
+
+}
+
+.yellow{
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 96%);
+}
+
+.green{
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 96%);
+}
+
+.blue{
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 96%);
+}
+
+
+strong{
+    color: black;
+
+}
+
+.main-summary{
+width: 190px;
+height: 30px;
+border-radius: 4px;
+justify-content: center;
+align-items: center;
+}
+
+.main-summary1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
+.icon{
+    display: inline-block;
+    /* font-size: 9px; */
+    /* margin-right: 10px; */
+    /* margin-top: 10px; */
+    justify-content: center;
+    align-items: center;
+margin-top: 5px;
+
+}
+
+.hundred{
+    color: hsl(241, 100%, 89%);
+    float: right;
+    justify-content: center;
+align-items: center;
+margin-top: 8px;
+    /* margin-right: 10px; */
+}
+ 
+.summarybox{
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+.title{
+    margin-bottom: 20px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+
+}
+
+.result{
+    color: hsl(241, 100%, 89%);
+}
+
+.summary{
+    margin-right: 110px;
+}
+
+.Continue:hover{
+    background-image: linear-gradient(to top, hsl(241, 81%, 54%),hsl(252, 100%, 67%));
+    background-color: hsl(241, 81%, 54%);
+    }
+
+  
