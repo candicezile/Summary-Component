@@ -220,4 +220,18 @@ margin-top: 8px;
     background-color: hsl(241, 81%, 54%);
     }
 
-  
+    @media (max-width:767px) {
+        .main{
+            display: flex;
+            width: 250px;
+            height: 700px;
+        border-radius: 20px;
+        box-shadow: 6px 0px 5px 10px rgba(41, 40, 40, 0.048);
+        background-color: hsl(0, 0%, 100%);
+        flex-wrap: wrap;
+          height: 100vh;
+        }
+        html{
+            background-color: hsl(221, 100%, 96%);
+        }
+    }
